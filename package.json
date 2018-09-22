@@ -1,0 +1,29 @@
+{
+  "name": "@svenardo/utime",
+  "private": false,
+  "description": "Micro lib that handle time related operations",
+  "version": "0.0.1",
+  "main": "bundle.js",
+  "keywords": [
+    "jwt"
+  ],
+  "author": "Sven Anders Robbestad <robbestad@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "prerelease": "rollup -c",
+    "release": "standard-version",
+    "postrelease": "npm publish --access=public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "babel-env": "^2.4.1",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "rollup": "^0.66.0",
+    "rollup-plugin-babel-minify": "^6.0.0",
+    "standard-version": "^4.4.0"
+  }
+}
