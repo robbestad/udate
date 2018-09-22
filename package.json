@@ -2,7 +2,7 @@
   "name": "@svenardo/utime",
   "private": false,
   "description": "Micro lib that handle time related operations",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "bundle.js",
   "keywords": [
     "jwt"
