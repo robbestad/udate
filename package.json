@@ -1,8 +1,8 @@
 {
-  "name": "@svenardo/utime",
+  "name": "@svenardo/udate",
   "private": false,
-  "description": "Micro lib that handle time related operations",
-  "version": "0.0.2",
+  "description": "Micro lib that handle time- and date related operations",
+  "version": "0.0.3",
   "main": "bundle.js",
   "keywords": [
     "jwt"
