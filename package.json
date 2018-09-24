@@ -2,7 +2,7 @@
   "name": "@svenardo/udate",
   "private": false,
   "description": "µtime - micro lib that handle time- and date related operations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "bundle.js",
   "keywords": [
     "jwt"
