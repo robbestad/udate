@@ -1,4 +1,4 @@
-# µTime
+# µdate
 
 ### Motivation
 
@@ -8,18 +8,18 @@
 
 _future_
 ```
-import utime from "@svenardo/utime";
-const oneSecondFromNow = utime("add", now, "seconds", 1);
-const oneMinuteFromNow = utime("add", now, "minutes", 1);
-const oneHourFromNow = utime("add", now, "hours", 1);
+import udate from "@svenardo/udate";
+const oneSecondFromNow = udate("add", now, "seconds", 1);
+const oneMinuteFromNow = udate("add", now, "minutes", 1);
+const oneHourFromNow = udate("add", now, "hours", 1);
 ```
 
 _past_
 ```
-import utime from "@svenardo/utime";
-const oneSecondInThePast = utime("sub", now, "seconds", 1);
-const oneMinuteInThePast = utime("sub", now, "minutes", 1);
-const oneHourInThePast = utime("sub", now, "hours", 1);
+import udate from "@svenardo/udate";
+const oneSecondInThePast = udate("sub", now, "seconds", 1);
+const oneMinuteInThePast = udate("sub", now, "minutes", 1);
+const oneHourInThePast = udate("sub", now, "hours", 1);
 ```
 ---
 More to come when I need it. File an issue you need an expansion.
